@@ -1,0 +1,54 @@
+﻿@model Trash.Models.Customer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <h4>Customer</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Address)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Address)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ZipCode)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ZipCode)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Weekday)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Weekday)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.HowOften)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.HowOften)
+            </dd>
+
+        </dl>
+    </div>
+</div>
