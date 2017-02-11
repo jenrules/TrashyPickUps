@@ -201,6 +201,7 @@
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PaymentController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -212,9 +213,17 @@
     <Compile Include="Migrations\201701311724340_InitialCreate1.Designer.cs">
       <DependentUpon>201701311724340_InitialCreate1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201701311745480_collectorDatabase.cs" />
-    <Compile Include="Migrations\201701311745480_collectorDatabase.Designer.cs">
-      <DependentUpon>201701311745480_collectorDatabase.cs</DependentUpon>
+    <Compile Include="Migrations\201702101630073_changeCollectorModel.cs" />
+    <Compile Include="Migrations\201702101630073_changeCollectorModel.Designer.cs">
+      <DependentUpon>201702101630073_changeCollectorModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702101727137_paymentModel.cs" />
+    <Compile Include="Migrations\201702101727137_paymentModel.Designer.cs">
+      <DependentUpon>201702101727137_paymentModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702101730078_paymentControllerAndView.cs" />
+    <Compile Include="Migrations\201702101730078_paymentControllerAndView.Designer.cs">
+      <DependentUpon>201702101730078_paymentControllerAndView.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -222,6 +231,7 @@
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\PaymentModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -319,6 +329,11 @@
     <Content Include="Views\Collector\Details.cshtml" />
     <Content Include="Views\Collector\Edit.cshtml" />
     <Content Include="Views\Collector\Index.cshtml" />
+    <Content Include="Views\Payment\Create.cshtml" />
+    <Content Include="Views\Payment\Delete.cshtml" />
+    <Content Include="Views\Payment\Details.cshtml" />
+    <Content Include="Views\Payment\Edit.cshtml" />
+    <Content Include="Views\Payment\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -336,8 +351,14 @@
     <EmbeddedResource Include="Migrations\201701311724340_InitialCreate1.resx">
       <DependentUpon>201701311724340_InitialCreate1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201701311745480_collectorDatabase.resx">
-      <DependentUpon>201701311745480_collectorDatabase.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201702101630073_changeCollectorModel.resx">
+      <DependentUpon>201702101630073_changeCollectorModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702101727137_paymentModel.resx">
+      <DependentUpon>201702101727137_paymentModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702101730078_paymentControllerAndView.resx">
+      <DependentUpon>201702101730078_paymentControllerAndView.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

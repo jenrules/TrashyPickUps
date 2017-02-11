@@ -97,4 +97,6 @@ C:\Users\Jennifer Ruel\Documents\Visual Studio 2015\Projects\Trash\Trash\bin\ros
 C:\Users\Jennifer Ruel\documents\visual studio 2015\Projects\Trash\Trash\obj\Debug\Trash.Migrations.InitialCreate.resources
 C:\Users\Jennifer Ruel\documents\visual studio 2015\Projects\Trash\Trash\obj\Debug\Trash.csproj.GenerateResource.Cache
 C:\Users\Jennifer Ruel\documents\visual studio 2015\Projects\Trash\Trash\obj\Debug\Trash.Migrations.InitialCreate1.resources
-C:\Users\Jennifer Ruel\documents\visual studio 2015\Projects\Trash\Trash\obj\Debug\Trash.Migrations.collectorDatabase.resources
+C:\Users\Jennifer Ruel\documents\visual studio 2015\Projects\Trash\Trash\obj\Debug\Trash.Migrations.changeCollectorModel.resources
+C:\Users\Jennifer Ruel\documents\visual studio 2015\Projects\Trash\Trash\obj\Debug\Trash.Migrations.paymentModel.resources
+C:\Users\Jennifer Ruel\documents\visual studio 2015\Projects\Trash\Trash\obj\Debug\Trash.Migrations.paymentControllerAndView.resources

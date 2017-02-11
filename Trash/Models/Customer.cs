@@ -45,5 +45,7 @@ namespace Trash.Models
         public DbSet<Customer> Customers { get; set; }
 
         public System.Data.Entity.DbSet<Trash.Models.Collector> Collectors { get; set; }
+
+        public System.Data.Entity.DbSet<Trash.Models.PaymentModel> PaymentModels { get; set; }
     }
 }
